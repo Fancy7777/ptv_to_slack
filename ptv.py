@@ -6,7 +6,7 @@ import hmac, hashlib
 #define a optin for further development here
 def call_ptv_api(api, option):
     args={}
-    ptvbase = "http://timetableapi.ptv.vic.gov.au/v3/"
+    ptvbase = "http://timetableapi.ptv.vic.gov.au"
     version = "/v3/"
     args['devid'] = certificate.userid
 
