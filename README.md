@@ -14,10 +14,13 @@ Notify user of disruption information to their slack account
 ```
 # Output:
 Your accont will receive a message including information as following:
+```
 If disruption:
   Disruption Information: .....
   Start time: ....
   End time: ....
-  
+```
+```
 If no disruption:
   "Good new! No disruption so far!!!!"
+```
